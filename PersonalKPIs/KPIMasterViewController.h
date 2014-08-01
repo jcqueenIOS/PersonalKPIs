@@ -1,5 +1,5 @@
 //
-//  KPIViewController.h
+//  KPIMasterViewController.h
 //  PersonalKPIs
 //
 //  Created by John Queen on 7/31/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface KPIViewController : UIViewController
+@interface KPIMasterViewController : UIViewController
 
 @end

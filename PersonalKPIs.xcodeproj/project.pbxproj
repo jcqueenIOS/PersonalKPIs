@@ -14,7 +14,7 @@
 		618C18F0198AC42800BDE261 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 618C18EF198AC42800BDE261 /* main.m */; };
 		618C18F4198AC42800BDE261 /* KPIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 618C18F3198AC42800BDE261 /* KPIAppDelegate.m */; };
 		618C18F7198AC42800BDE261 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 618C18F5198AC42800BDE261 /* Main.storyboard */; };
-		618C18FA198AC42800BDE261 /* KPIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 618C18F9198AC42800BDE261 /* KPIViewController.m */; };
+		618C18FA198AC42800BDE261 /* KPIMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 618C18F9198AC42800BDE261 /* KPIMasterViewController.m */; };
 		618C18FC198AC42800BDE261 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 618C18FB198AC42800BDE261 /* Images.xcassets */; };
 		618C1903198AC42800BDE261 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 618C1902198AC42800BDE261 /* XCTest.framework */; };
 		618C1904198AC42800BDE261 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 618C18E3198AC42700BDE261 /* Foundation.framework */; };
@@ -45,8 +45,8 @@
 		618C18F2198AC42800BDE261 /* KPIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KPIAppDelegate.h; sourceTree = "<group>"; };
 		618C18F3198AC42800BDE261 /* KPIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPIAppDelegate.m; sourceTree = "<group>"; };
 		618C18F6198AC42800BDE261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		618C18F8198AC42800BDE261 /* KPIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KPIViewController.h; sourceTree = "<group>"; };
-		618C18F9198AC42800BDE261 /* KPIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPIViewController.m; sourceTree = "<group>"; };
+		618C18F8198AC42800BDE261 /* KPIMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KPIMasterViewController.h; sourceTree = "<group>"; };
+		618C18F9198AC42800BDE261 /* KPIMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPIMasterViewController.m; sourceTree = "<group>"; };
 		618C18FB198AC42800BDE261 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		618C1901198AC42800BDE261 /* PersonalKPIsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonalKPIsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		618C1902198AC42800BDE261 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -115,8 +115,8 @@
 				618C18F2198AC42800BDE261 /* KPIAppDelegate.h */,
 				618C18F3198AC42800BDE261 /* KPIAppDelegate.m */,
 				618C18F5198AC42800BDE261 /* Main.storyboard */,
-				618C18F8198AC42800BDE261 /* KPIViewController.h */,
-				618C18F9198AC42800BDE261 /* KPIViewController.m */,
+				618C18F8198AC42800BDE261 /* KPIMasterViewController.h */,
+				618C18F9198AC42800BDE261 /* KPIMasterViewController.m */,
 				618C18FB198AC42800BDE261 /* Images.xcassets */,
 				618C18EA198AC42800BDE261 /* Supporting Files */,
 			);
@@ -250,7 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				618C18FA198AC42800BDE261 /* KPIViewController.m in Sources */,
+				618C18FA198AC42800BDE261 /* KPIMasterViewController.m in Sources */,
 				618C18F0198AC42800BDE261 /* main.m in Sources */,
 				618C18F4198AC42800BDE261 /* KPIAppDelegate.m in Sources */,
 			);
